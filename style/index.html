@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+
+        <!--responsividade-->
+
+        <link rel="stylesheet" href="/style/responsive.css">
+
+        <!--Olw css-->
+
+        <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+        <title>SHELFLIX</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                    <h2 class="logo">SHELFLIX</h2>
+                    
+                    <nav>
+                        <a href="index.html">INICIO</a>
+                        <a href="#">AUTORES</a>
+                        <a href="#">LOGIN</a>
+                        <a href="#">CADASTRE-SE</a>                      
+                        
+                     </nav>
+            </div>
+        </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h4 class="titulo">LORD OF THE RINGS</h4>
+                <h2 class = "subtitulo">A Sociedade do Anel</h2>
+                <p class="descricao">The Fellowship of the Ring é o primeiro volume da trilogia O Senhor dos Anéis, escrita pelo professor e filólogo britânico J. R. R. Tolkien. Narra o início da história do Um Anel, tendo como principal aspecto a formação de uma Sociedade que deveria levar o Anel para a Montanha da Perdição a fim de destrui-lo.</p>  
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="comecar()">
+                        <i class="fas fa-play"></i>
+                        LER AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="informacoes()">
+                        <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-livros">
+        <h2 class="titulo">Populares</h2>
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                   <img src="/img/mini4.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item">
+                    <img src="/img/mini2.jpg" alt="" srcset="">
+                 </div>
+
+                 <div class="item">
+                    <img src="/img/mini1.jpg" alt="" srcset="">
+                 </div>
+
+                 <div class="item">
+                    <img src="/img/mini6.jpg" alt="" srcset="">
+                 </div>
+
+                 <div class="item">
+                    <img src="/img/mini5.jpg" alt="" srcset="">
+                 </div>
+
+                 <div class="item">
+                    <img src="/img/mini3.jpg" alt="" srcset="">
+                 </div>
+
+                
+              
+        </div>
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/6ee5a5a887.js" ></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
+</body>
+</html>
